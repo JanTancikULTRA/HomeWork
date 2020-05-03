@@ -8,7 +8,7 @@
 ### Na router jsou a mohou být připojeny zařízení jako mobilní telefony tablety... atp.
 
 # Zde je návrh mnou vytvořenné sítě
-![1.PNG](Screenshots/1.PNG)
+![1.png](Screenshots/1.png)
 
 # Prvky sítě 
 
