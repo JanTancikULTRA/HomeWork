@@ -40,3 +40,4 @@
 ### Switch: 1 407 Kč,-
 ### Kabeláž: 180 Kč,-
 ### lišty: 290 Kč,-
+# Celková cena činní 6 605 Kč,-
