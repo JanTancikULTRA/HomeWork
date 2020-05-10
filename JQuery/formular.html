@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formular</title>
+</head>
+<body>
+    <h1>Informace</h1>
+  
+    <fieldset>
+    <legend>Informace</legend>
+    <label for="surname">Příjmení</label>
+    <input type = "text"   name ="surname" id="surname" required ><br/><br/>
+    <label for="surname">Jméno</label>
+    <input type = "text" name = "namefield" id="name" required><br/><br/>
+    <label for="date">celé datum narození:</label><br/>
+    <input type = "date" name = "datefield" id="date"><br/><br/>
+    <label for="terms">Akceptuji podmínky použití:</label>
+    <input type = "checkbox" name = "termsfield" id="terms"><br/><br/>
+    </fieldset>
+
+    <fieldset>
+    <legend>Registrace</legend>
+    <label for="email">E-mail</label>
+    <input type = "email" name="emailfield" id="email" minlength=6><br/><br/>
+    <label for="password">Heslo</label>
+    <input type = "text"  name = "passwordfield" id="password"><br/><br/>
+    </fieldset>
+
+    <fieldset>
+    <legend>Zajímaví Fakt o tobě!</legend>
+    <legend>Máš rád/a kočky?</legend>
+    <label for = "yes">Ano</label>
+    <input type = "radio"  id="yes" name="cats"><br/>
+    <label for = "no">Ne</label>
+    <input type = "radio"  id="no" name="cats">
+    </fieldset>
+
+    <fieldset>
+    <legend>Oblíbená Barva?</legend>
+    <input type="color" name="favcolor" value="black"><br/><br/>
+    
+    <label for="time">V kolik chodíš spát?</label>
+    <input type="time" name = "timefield" id="time"><br/><br/>
+    
+    <label>Oblíbené auto?</label><br/><br/>
+    <select name = "selectfield">
+        <option value="volvo">BMW</option>
+        <option value="saab">AUDI</option>
+        <option value="mercedes">LADA</option>
+            
+          </select>
+    
+    <label>Jak hodnotíš svou práci?</label><br/><br/>
+    <input type="range" name="rangefield" min="0" max="100">
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Tvoje komenty:</legend>
+        <textarea  name = "commentsfield" maxlength=200 placeholder="Comments"></textarea>
+    </fieldset><br/><br/>
+
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
